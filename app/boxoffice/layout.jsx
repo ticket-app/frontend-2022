@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Login from '../../components/login'
+import { FiShoppingCart } from 'react-icons/fi'
 
 const TicketsLayout = async ({children}) => {
   return (
@@ -17,7 +17,7 @@ const TicketsLayout = async ({children}) => {
             </span>
             <span className="flex gap-4">
               <span>Login or Register</span>
-              CART
+              <FiShoppingCart />
             </span>
           </div>
         </nav>
