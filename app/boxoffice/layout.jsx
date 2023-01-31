@@ -8,16 +8,16 @@ const TicketsLayout = async ({children}) => {
       <head />
       <body className="bg-brand-50 min-h-screen flex flex-col">
         <nav className="bg-brand-800 text-white">
-          <div className="container max-w-4xl mx-auto flex justify-between items-center">
+          <div className="container max-w-4xl mx-auto flex justify-between items-center py-2">
             <span className="flex gap-4">
             <Link href="/boxoffice">Home</Link>
             <Link href="/boxoffice">Shows</Link>
             <Link href="/boxoffice">Merchandise</Link>
             <Link href="/boxoffice">Donate</Link>
             </span>
-            <span className="flex gap-4">
+            <span className="flex gap-4 items-center">
               <span>Login or Register</span>
-              <FiShoppingCart />
+              <FiShoppingCart className="text-lg" />
             </span>
           </div>
         </nav>
